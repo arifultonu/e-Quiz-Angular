@@ -1,0 +1,73 @@
+
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>e-Quiz</span>
+      <span class="example-spacer"></span>
+      <button mat-raised-button color="" routerLink="/login">Login</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+<div class="content" role="main">
+  <span style="font-size: xx-large; font-weight: 700;">Take a Quiz Now!</span>
+  <span style="font-size: large;">Choose a Quiz Category Below</span>
+  
+  <div class="card-container" fxLayout="row" fxLayout.xs="column" style="padding-top: 15px;">    
+    
+    <mat-card class="example-card" style="background-color:lightblue;">
+    <mat-card-header>
+        <mat-card-title>Core Java</mat-card-title>
+        <br/>
+        <mat-card-subtitle>Quiz-8</mat-card-subtitle>
+      </mat-card-header>
+      <br/>
+      <a href="#" routerLink="/javase">
+      <img mat-card-image class="quiz-img" src="assets/images/core-java.png">
+    </a> 
+      <mat-card-actions style="text-align: center;">        
+        <button mat-raised-button color="success" routerLink="/javase">Start</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="example-card" style="background-color: lightblue;">
+      <mat-card-header>
+        <mat-card-title>Advanced Java</mat-card-title>
+        <mat-card-subtitle>Quiz-12</mat-card-subtitle>
+      </mat-card-header>
+      <br/>
+      <a href="#" routerLink="/javaee">
+        <img mat-card-image class="quiz-img" src="assets/images/advanced-java.png">
+      </a> 
+      <mat-card-actions style="text-align: center;">
+        <button mat-raised-button color="btn-success" routerLink="/javaee">Start</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="example-card" style="background-color: lightblue;">
+      <mat-card-header>
+        <mat-card-title>JavaScript</mat-card-title>
+        <mat-card-subtitle>Quiz-5</mat-card-subtitle>
+      </mat-card-header>
+      <br/>
+      <a href="#" routerLink="/js">
+        <img mat-card-image class="quiz-img" src="assets/images/js.png">
+      </a> 
+      <mat-card-actions style="text-align: center;">
+        <button mat-raised-button color="btn-success" routerLink="/js">Start</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="example-card" style="background-color: lightblue;">
+      <mat-card-header>
+        <mat-card-title>Angular</mat-card-title>
+        <mat-card-subtitle>Quiz-3</mat-card-subtitle>
+      </mat-card-header>
+      <br/>
+      <a href="#" routerLink="/angular">
+        <img mat-card-image class="quiz-img" src="assets/images/angular.png">
+      </a> 
+      <mat-card-actions style="text-align: center;">
+        <button mat-raised-button color="btn-success" routerLink="/angular">Start</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
